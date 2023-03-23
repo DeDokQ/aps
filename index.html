@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Главная страница</title>
+</head>
+<body>
+    <div class="header">
+    </div>
+
+    <div class="main">
+
+         <div class="nav">
+            <form action="index.html" target="_blank">
+                <button class="nice_button">Главная</button>
+            </form>
+             <form action="result.html" target="_blank">
+                <button class="nice_button">Анкеты</button>
+            </form>
+        </div>
+
+        <div class="article">
+            <form id="main_form">
+
+            <div class="form-control">
+                <label for="name" id="label-name">
+                    Имя
+                </label>
+                <input type="text"
+                       id="name"
+                       placeholder="Введите Ваше имя" />
+            </div>
+
+                <br>
+
+            <div class="form-control">
+            <label for="lastname" id="label-lastname">
+                Фамилия
+            </label>
+            <input type="text"
+                   id="lastname"
+                   placeholder="Введите Вашу фамилию" />
+            </div>
+
+                <br>
+
+            <div class="form-control">
+            <label for="zona_index" id="label-zona">
+                Зона, откуда осуществляется перевод
+            </label>
+            <input type="text"
+                   id="zona_index"
+                   placeholder="Введите идентификационный номер Зоны" />
+            </div>
+
+                <br>
+
+        <div class="form-control">
+            <label for="level" id="label-level">
+                Выберите Ваш уровень доступа
+            </label>
+
+            <select name="level" id="level">
+                <option value="first">0 Уровень доступа</option>
+                <option value="first">1 Уровень доступа</option>
+                <option value="second">2 Уровень доступа</option>
+                <option value="third">3 Уровень доступа</option>
+                <option value="fourth">4 Уровень доступа</option>
+                <option value="fifth">5 Уровень доступа</option>
+            </select>
+        </div>
+                <br>
+
+        <div class="form-control">
+            <label>Выберите классы объектов/события, с которыми Вы имели опыт работы
+            </label>
+            <label for="inp-1">
+                <input type="checkbox"
+                       id="inp-1">Безопасный
+            </label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       id="inp-2">Евклид</label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       id="inp-3">Кетер</label>
+            <label for="inp-4">
+                <input type="checkbox"
+                       id="inp-4">Таумиэль</label>
+            <label for="inp-5">
+                <input type="checkbox"
+                       id="inp-5">Аполлион</label>
+            <label for="inp-6">
+                <input type="checkbox"
+                       id="inp-6">Архонт</label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       id="inp-7">Нейтрализованный</label>
+            <label for="inp-8">
+                <input type="checkbox"
+                       id="inp-8">Перевод объекта в новые условия содержания</label>
+            <label for="inp-9">
+                <input type="checkbox"
+                       id="inp-9">Присутствие, при нарушении SCP условий содержания</label>
+            <label for="inp-10">
+                <input type="checkbox"
+                       id="inp-10">Присутствие на активном инциденте связанным с SCP</label>
+        </div>
+
+                <br>
+
+        <div class="form-control">
+            <label for="comment">
+                Ваш комментарий для Джонатан Фейнсберга
+                <br><small>(Необязательно)</small>
+            </label>
+
+            <textarea name="comment" id="comment"
+                placeholder="Введите Ваш комментарий...">
+            </textarea>
+        </div>
+                <br>
+        <button class="result_button" type="submit" value="submit">
+            Отправить
+        </button>
+
+        <button class="clear_button" type="reset" value="reset">
+            Очистить
+        </button>
+
+            </form>
+        </div>
+
+        <div class="aside">
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <footer>
+            <p id="footer_one">Разработана при поддержке западного отделения <b>Зоны-BY2</b></p>
+            <p id="footer_two">Учреждено старшим научным сотрудником Дж. Фейнсбергом.</p>
+            <p id="footer_three">Анкетирование проходит в рамках набора младших научных сотрудников для изучения объектов класса SAFE. Зона-19G</p>
+            <p>2023, Беларусь, BY2#19</p>
+        </footer>
+    </div>
+
+</body>
+</html>

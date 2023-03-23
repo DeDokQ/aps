@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin 0%;
+    background-color: rgb(220, 208, 208);
+}
+
+.header {
+    width: 100%;
+    height: 200px;
+    background-image: url(../resource/Shapka.png);
+    background-size: cover;
+    background-position: center center;
+ }
+
+.main{
+    display: flex;
+}
+
+.nav{
+    background-color: rgb(210, 190, 190);
+    min-width: 20%;
+    justify-content: center;
+    text-align: center;
+}
+
+.article{
+    background-color: rgb(220, 208, 208);
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aside{
+    background-color: rgb(160, 148, 148);
+    min-width: 20%;
+}
+
+.footer{
+    display:flex;
+    background-color: rgb(190, 178, 178);
+    justify-content: center;
+    text-align: center;
+}
+
+.nice_button{
+    text-decoration: none;
+    width: 55%;
+    height: 35%;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 7px 15px;
+    margin-top: 20px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+
+.nice_button:hover {
+  background: rgb(192, 190, 190);
+  box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+  color: black;
+  transform: translateY(-7px);
+}
+
+.result_button{
+    text-decoration: none;
+    width: 40%;
+    height: 40%
+
+    margin-left: auto;
+    margin-right: auto;
+
+    line-height: 25px;
+    border-radius: 15px;
+
+    background-color: rgb(95, 200, 102);
+}
+
+.clear_button{
+    text-decoration: none;
+
+    width: 25%;
+    height: 15%;
+
+    line-height: 25px;
+    border-radius: 15px;
+
+    background-color: rgb(240, 85, 85);
+}
+
+
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+    margin-left: auto;
+    resize: none;
+}
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+#main_form {
+    background-color: #fff;
+    max-width: 85%;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+#footer_one{
+
+}
+
+#footer_two{
+    margin: 0;
+    text-align: left;
+}
+
+#footer_three{
+    margin: 0;
+    text-align: left;
+}
